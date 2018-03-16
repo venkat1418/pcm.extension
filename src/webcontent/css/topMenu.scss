@@ -1,0 +1,85 @@
+.topLeftBanner {
+  position: relative;
+  z-index: 1;
+  background-color: #EEEEEE;
+  transition: 0.5s;
+  padding: 10px;
+  padding-right: 12%;
+  color: grey;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.pageNameLabel {
+  width: 15%;
+  line-height: 15px;
+  float: left;
+}
+
+.viewPrevLabel {
+  position: relative;
+  width: 20%;
+  line-height: 35px;
+  float: left;
+  border-left: 1px solid #DDDDDD;
+}
+
+.viewPrevLabelSpan {
+  text-decoration: underline;
+  position: relative;
+  line-height: 35px;
+  left: 4%;
+}
+
+.loginButton {
+  border: 1.5px solid #999999;
+  float: right;
+  color: grey;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: #EEEEEE;
+}
+
+.hidden {
+  display: none;
+}
+
+select {
+  border: 1.5px solid #999999;
+  left: -1%;
+  color: grey;
+  padding: 10px 12px;
+  padding-right: 0px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  outline: none;
+  background-color: #EEEEEE;
+  font-size: 14px;
+  &:disabled {
+    border: 1.5px solid #CCCCCC;
+    color: #CCCCCC;
+  }
+}
+
+.contentStatusLabel {
+  width: 15%;
+  position: relative;
+  line-height: 35px;
+  float: left;
+  left: 1%;
+}
+
+.discardButton {
+  border: none;
+  color: #CCCCCC;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #EEEEEE;
+}

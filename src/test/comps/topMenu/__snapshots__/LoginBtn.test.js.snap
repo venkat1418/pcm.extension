@@ -1,0 +1,462 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the renders of LoginBtn 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginBtn
+    cookies={
+      Cookies {
+        "HAS_DOCUMENT_COOKIE": true,
+        "cookies": Object {
+          "toolbeltCookie": "1234",
+        },
+        "hooks": undefined,
+      }
+    }
+    isLogin={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <button
+            className="loginButton"
+            onClick={[Function]}
+          >
+            LOGIN
+          </button>
+        </div>,
+        <SetCookieModal
+          onCancel={[Function]}
+          onConfirm={[Function]}
+          showModal={false}
+        />,
+      ],
+      "className": "loginComp",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            className="loginButton"
+            onClick={[Function]}
+          >
+            LOGIN
+          </button>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "LOGIN",
+            "className": "loginButton",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "LOGIN",
+          "type": "button",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "onCancel": [Function],
+          "onConfirm": [Function],
+          "showModal": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <button
+              className="loginButton"
+              onClick={[Function]}
+            >
+              LOGIN
+            </button>
+          </div>,
+          <SetCookieModal
+            onCancel={[Function]}
+            onConfirm={[Function]}
+            showModal={false}
+          />,
+        ],
+        "className": "loginComp",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="loginButton"
+              onClick={[Function]}
+            >
+              LOGIN
+            </button>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "LOGIN",
+              "className": "loginButton",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "LOGIN",
+            "type": "button",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onCancel": [Function],
+            "onConfirm": [Function],
+            "showModal": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Test the renders of LoginBtn 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginBtn
+    cookies={
+      Cookies {
+        "HAS_DOCUMENT_COOKIE": true,
+        "cookies": Object {
+          "toolbeltCookie": "1234",
+        },
+        "hooks": undefined,
+      }
+    }
+    isLogin={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <button
+            className="loginButton"
+            onClick={[Function]}
+          >
+            LOGIN
+          </button>
+        </div>,
+        <SetCookieModal
+          onCancel={[Function]}
+          onConfirm={[Function]}
+          showModal={true}
+        />,
+      ],
+      "className": "loginComp",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            className="loginButton"
+            onClick={[Function]}
+          >
+            LOGIN
+          </button>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "LOGIN",
+            "className": "loginButton",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "LOGIN",
+          "type": "button",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "onCancel": [Function],
+          "onConfirm": [Function],
+          "showModal": true,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <button
+              className="loginButton"
+              onClick={[Function]}
+            >
+              LOGIN
+            </button>
+          </div>,
+          <SetCookieModal
+            onCancel={[Function]}
+            onConfirm={[Function]}
+            showModal={true}
+          />,
+        ],
+        "className": "loginComp",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="loginButton"
+              onClick={[Function]}
+            >
+              LOGIN
+            </button>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "LOGIN",
+              "className": "loginButton",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "LOGIN",
+            "type": "button",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onCancel": [Function],
+            "onConfirm": [Function],
+            "showModal": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Test the renders of LoginBtn 3`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginBtn
+    cookies={
+      Cookies {
+        "HAS_DOCUMENT_COOKIE": true,
+        "cookies": Object {
+          "toolbeltCookie": "1234",
+        },
+        "hooks": undefined,
+      }
+    }
+    isLogin={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <withCookies(Connect(UserInfo)) />,
+        <SetCookieModal
+          onCancel={[Function]}
+          onConfirm={[Function]}
+          showModal={false}
+        />,
+      ],
+      "className": "loginComp",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "onCancel": [Function],
+          "onConfirm": [Function],
+          "showModal": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <withCookies(Connect(UserInfo)) />,
+          <SetCookieModal
+            onCancel={[Function]}
+            onConfirm={[Function]}
+            showModal={false}
+          />,
+        ],
+        "className": "loginComp",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onCancel": [Function],
+            "onConfirm": [Function],
+            "showModal": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

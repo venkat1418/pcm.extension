@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the renders of TopMenu 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TopMenu />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="menu_container"
+        >
+          <withCookies(Connect(LoginBtn)) />
+          <Connect(PageNameLabel) />
+          <ContentStatusLabel
+            isEditMode={undefined}
+            noOfOpenStories={undefined}
+          />
+          <Connect(EditPublishButton)
+            noOfOpenStories={undefined}
+          />
+        </div>,
+        <PCMErrorBoundary>
+          
+        </PCMErrorBoundary>,
+      ],
+      "className": "topLeftBanner",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <withCookies(Connect(LoginBtn)) />,
+            <Connect(PageNameLabel) />,
+            <ContentStatusLabel
+              isEditMode={undefined}
+              noOfOpenStories={undefined}
+            />,
+            <Connect(EditPublishButton)
+              noOfOpenStories={undefined}
+            />,
+          ],
+          "className": "menu_container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "isEditMode": undefined,
+              "noOfOpenStories": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "noOfOpenStories": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "",
+        },
+        "ref": null,
+        "rendered": "",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="menu_container"
+          >
+            <withCookies(Connect(LoginBtn)) />
+            <Connect(PageNameLabel) />
+            <ContentStatusLabel
+              isEditMode={undefined}
+              noOfOpenStories={undefined}
+            />
+            <Connect(EditPublishButton)
+              noOfOpenStories={undefined}
+            />
+          </div>,
+          <PCMErrorBoundary>
+            
+          </PCMErrorBoundary>,
+        ],
+        "className": "topLeftBanner",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <withCookies(Connect(LoginBtn)) />,
+              <Connect(PageNameLabel) />,
+              <ContentStatusLabel
+                isEditMode={undefined}
+                noOfOpenStories={undefined}
+              />,
+              <Connect(EditPublishButton)
+                noOfOpenStories={undefined}
+              />,
+            ],
+            "className": "menu_container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "isEditMode": undefined,
+                "noOfOpenStories": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "noOfOpenStories": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Test the renders of TopMenu 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TopMenu />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="menu_container"
+        >
+          <withCookies(Connect(LoginBtn)) />
+          <Connect(PageNameLabel) />
+          <ContentStatusLabel
+            isEditMode={undefined}
+            noOfOpenStories={5}
+          />
+          <Connect(EditPublishButton)
+            noOfOpenStories={5}
+          />
+        </div>,
+        <PCMErrorBoundary>
+          
+        </PCMErrorBoundary>,
+      ],
+      "className": "topLeftBanner",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <withCookies(Connect(LoginBtn)) />,
+            <Connect(PageNameLabel) />,
+            <ContentStatusLabel
+              isEditMode={undefined}
+              noOfOpenStories={5}
+            />,
+            <Connect(EditPublishButton)
+              noOfOpenStories={5}
+            />,
+          ],
+          "className": "menu_container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "isEditMode": undefined,
+              "noOfOpenStories": 5,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "noOfOpenStories": 5,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "",
+        },
+        "ref": null,
+        "rendered": "",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="menu_container"
+          >
+            <withCookies(Connect(LoginBtn)) />
+            <Connect(PageNameLabel) />
+            <ContentStatusLabel
+              isEditMode={undefined}
+              noOfOpenStories={5}
+            />
+            <Connect(EditPublishButton)
+              noOfOpenStories={5}
+            />
+          </div>,
+          <PCMErrorBoundary>
+            
+          </PCMErrorBoundary>,
+        ],
+        "className": "topLeftBanner",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <withCookies(Connect(LoginBtn)) />,
+              <Connect(PageNameLabel) />,
+              <ContentStatusLabel
+                isEditMode={undefined}
+                noOfOpenStories={5}
+              />,
+              <Connect(EditPublishButton)
+                noOfOpenStories={5}
+              />,
+            ],
+            "className": "menu_container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "isEditMode": undefined,
+                "noOfOpenStories": 5,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "noOfOpenStories": 5,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,82 @@
+.homeScreenLeft {
+  position: relative;
+  width: 70%;
+  float: left;
+  border-top: 4px solid #FFCE00;
+}
+
+.hero {
+  position: relative;
+  border-top: 5px solid #FFFF00;
+}
+
+.heroStoryOverlay {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  top: -50px;
+  left: 2%;
+}
+
+.heroDiv {
+  width: 30%;
+  position: relative;
+  display: inline-block;
+  background-color: #021229;
+  color: #EEEEEE;
+  border-top: 4px solid #FFCE00;
+  border-right: 1px solid #C0C0C0;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.heroText1 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 40%;
+  color: #FFFF00;
+  font: bold 20px Sans-Serif;
+  letter-spacing: -1px;
+  padding: 15px;
+}
+
+.heroText2 {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 50%;
+  color: #FFFFFF;
+  font: bold 35px Sans-Serif;
+  letter-spacing: -1px;
+  padding: 15px;
+}
+
+.homeScreenRight {
+  width: 30%;
+  right: 2%;
+  float: right;
+  border-top: 5px solid #021229;
+  .topHeaderSpan {
+    font: bold 18px Sans-Serif;
+    color: #021229;
+    width: 100%;
+    padding: 20px;
+    padding-left: 0px;
+  }
+}
+
+.TopDiv {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px dotted #999999;
+}

@@ -1,0 +1,409 @@
+.leftnav {
+  width: 330px;
+  position: fixed;
+  top: 10%;
+  z-index: 1;
+  left: 1px;
+  background-color: #DDDDDD;
+  transition: 0.5s;
+  bottom: 5%;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: black;
+  }
+}
+
+.leftHeader {
+  width: 330px;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  left: 1px;
+  height: 2%;
+  background-color: #333333;
+  transition: 0.5s;
+  padding-top: 5%;
+}
+
+.insertButton {
+  align-self: left;
+  background-color: #333333;
+  border: 2px solid #808080;
+  width: 80px;
+  position: fixed;
+  top: 15px;
+  left: 245px;
+  color: #A0A0A0;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.changeButton {
+  align-self: left;
+  background-color: #333333;
+  border: 2px solid #808080;
+  width: 80px;
+  position: fixed;
+  top: 15px;
+  left: 160px;
+  color: #A0A0A0;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+@media screen and (max-height: 450px) {
+  .leftnav {
+    padding-top: 15px;
+    a {
+      font-size: 18px;
+    }
+  }
+}
+
+.leftHeaderSpan {
+  position: fixed;
+  top: 4%;
+  left: 2%;
+  color: #CCCCCC;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.heroPackageSpan {
+  position: relative;
+  color: #101010;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+  text-decoration: underline;
+  z-index: 1;
+}
+
+.heroPackageList {
+  position: relative;
+  left: 1%;
+  top: 0%;
+  color: #000000;
+  background-color: #E5E5E5;
+  font-size: 11px;
+}
+
+.topStoriesSpan {
+  position: relative;
+  color: #101010;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 15px 15px 15px 15px;
+  text-decoration: underline;
+  z-index: 1;
+  left: 1.3%;
+  top: -9%;
+}
+
+.topStoriesList {
+  color: #000000;
+  padding: 15px 0px;
+  background-color: #F0F0F0;
+  font-size: 11px;
+}
+
+div.panel {
+  background-color: #D0D0D0;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  display: none;
+  outline: none;
+  font-size: 10px;
+  transition: 0.4s;
+}
+
+.spanRemove {
+  position: absolute;
+  right: 10px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #909090;
+  /*align-self: flex-end;*/
+}
+
+.headline1 {
+  font-weight: bold;
+  color: #A0A0A0;
+}
+
+.headline {
+  padding-top: 5px;
+}
+
+.leftFooter {
+  width: 330px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  left: 1px;
+  height: 2%;
+  background-color: #E9E9E9;
+  border-top: 1px black;
+  transition: 0.5s;
+  padding-top: 50px;
+}
+
+.saveButton {
+  align-self: right;
+  border: 2px solid grey;
+  width: 120px;
+  position: fixed;
+  bottom: 2%;
+  left: 5%;
+  color: grey;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.cancelButton {
+  align-self: right;
+  border: 2px solid grey;
+  width: 80px;
+  position: fixed;
+  bottom: 2%;
+  left: 16%;
+  color: grey;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.leftNavigationPanel {
+  position: fixed;
+  left: 1px;
+}
+
+.menuDefault {
+  content: url('../images/menu3.png');
+  position: relative;
+  top: -5px;
+  width: 15px;
+  height: 15px;
+}
+
+.changeLayout {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.changeLayout_Container {
+  position: absolute;
+  left: 25%;
+  right: 5%;
+  top: 15%;
+  bottom: 15%;
+  margin: auto;
+  border: 1.5px solid #E31818;
+  background: #EEEEEE;
+}
+
+.closeButton {
+  position: relative;
+  border: none;
+  width: 80px;
+  color: white;
+  float: right;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #E31818;
+}
+
+.selectButton {
+  position: relative;
+  border: none;
+  width: 80px;
+  color: grey;
+  float: right;
+  top: -1.5px;
+  padding: 13px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #CCCCCC;
+}
+
+.changeLayoutSpan {
+  position: absolute;
+  left: 8%;
+  top: 8%;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: sans-serif;
+}
+
+.layoutSection {
+  position: absolute;
+  top: 15%;
+  width: 90%;
+  float: left;
+  left: 5%;
+}
+
+.layoutImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  text-align: center;
+  color: #999999;
+}
+
+.currentLayout {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  height: 100%;
+  text-align: center;
+  background: rgba(227, 24, 24, 0.1);
+}
+
+.currentLayoutSpan {
+  position: absolute;
+  top: 38%;
+  left: 25%;
+  padding: 5%;
+  text-align: center;
+  color: #DDDDDD;
+  background-color: #E31818;
+}
+
+.layoutFooter {
+  position: absolute;
+  top: 95%;
+  width: 100%;
+  text-align: center;
+}
+
+.layoutRows {
+  float: left;
+  margin-left: 3%;
+  top: 20%;
+  padding: 5px 10px;
+}
+
+.layoutRowDesc {
+  position: relative;
+  display: block;
+  top: 10px;
+  text-align: center;
+  color: #999999;
+}
+
+.layoutRowStories {
+  position: relative;
+  display: block;
+  top: 15px;
+  text-align: center;
+  color: #999999;
+}
+
+.leftNavBtnDiv {
+  position: absolute;
+  top: 45%;
+  left: 0%;
+}
+
+.leftNavBtnImg {
+  content: url('../images/leftArrow.png');
+  width: 50px;
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
+.leftNavBtnImgdisabled {
+  content: url('../images/leftArrow.png');
+  width: 50px;
+  height: 50px;
+  background-color: #EEEEEE;
+  opacity: 0.2;
+}
+
+.rightNavBtnDiv {
+  position: absolute;
+  top: 45%;
+  right: 0%;
+}
+
+.rightNavBtnImg {
+  content: url('../images/rightArrow.png');
+  width: 50px;
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
+.rightNavBtnImgdisabled {
+  content: url('../images/rightArrow.png');
+  width: 50px;
+  height: 50px;
+  background-color: #EEEEEE;
+  opacity: .1;
+}
+
+.layoutFooter {
+  .nonActive {
+    position: relative;
+    align-self: center;
+    height: 10px;
+    width: 10px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-left: 1%;
+  }
+  .active {
+    position: relative;
+    align-self: center;
+    height: 10px;
+    width: 10px;
+    border: 1px solid transparent;
+    background-color: #999999;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-left: 1%;
+  }
+}
+
+.activeRedBorder {
+  border: 1.5px solid #E31818;
+  margin-right: -30%;
+}
+
+.nonActiveDiv {
+  opacity: 0.3;
+}

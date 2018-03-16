@@ -1,0 +1,70 @@
+.h2HomeScreen {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  float: left;
+}
+
+.h2Left {
+  position: absolute;
+  width: 25%;
+  left: 0%;
+  height: 100%;
+}
+
+.h2Middle {
+  position: absolute;
+  left: 30%;
+  width: 30%;
+}
+
+.h2MiddleStory {
+  height: 110px;
+  padding-bottom: 20px;
+}
+
+.storyHeadline {
+  font: bold 15px Sans-Serif;
+  line-height: 1.5;
+}
+
+.storyFooter {
+  position: relative;
+  top: 30%;
+}
+
+.storyFooterLeft {
+  font: bold 12px Sans-Serif;
+  color: blue;
+}
+
+.storyFooterRight {
+  font: bold 12px Sans-Serif;
+  color: grey;
+}
+
+.h2Img {
+  position: relative;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  height: 110px;
+}
+
+.h2Right {
+  position: absolute;
+  width: 30%;
+  right: 0%;
+}
+
+.h2RightStory {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  font-style: Sans-Serif;
+  border-bottom: 1px dotted #999999;
+}
